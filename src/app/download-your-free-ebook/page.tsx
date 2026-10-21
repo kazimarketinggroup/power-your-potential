@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export default function FreeBookPage() {
+export default function DownloadYourFreeEbookPage() {
   return (
     <main className="flex-1">
       <BookHero />

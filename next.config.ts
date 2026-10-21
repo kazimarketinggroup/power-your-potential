@@ -1,7 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async redirects() {
+    return [
+      {
+        source: "/freebook",
+        destination: "/download-your-free-ebook",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
