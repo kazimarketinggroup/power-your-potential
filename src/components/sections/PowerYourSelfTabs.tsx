@@ -40,24 +40,6 @@ const tabs: PathwayTab[] = [
     body: (
       <>
         <p>It&apos;s about deciding what you are actually capable of.</p>
-        <p>
-          You can&apos;t do this alone. Which is why we created our free online community, The
-          Power Hub.
-        </p>
-      </>
-    ),
-  },
-  {
-    label: "Inside The Power Hub",
-    body: (
-      <>
-        <p>
-         Inside the Hub you&apos;ll have the opportunity to immerse yourself with people who believe in you, even if you don&apos;t believe in yourself.
-        </p>
-        <p>
-          You&apos;ll hear leadership lessons from people living it, not textbooks or celebrities - real transformation stories, and when you are ready to go deeper, you&apos;ll find all the ways Power Your Potential can help you enjoy career success on your terms.
-        </p>
-        
       </>
     ),
   },

@@ -6,7 +6,7 @@ const pathways = [
     href: "#power-your-self",
     icon: "/images/icon-phoenix.png",
     gradient: "bg-[linear-gradient(135deg,#45204d_0%,#241322_45%,#141014_100%)]",
-    items: ["THE POWER HUB", "Redefining Career Success: Book", "The Integrated Leader"],
+    items: ["Redefining Career Success: Book", "The Integrated Leader"],
   },
   {
     title: "Power Your People",

@@ -13,14 +13,6 @@ function BookIcon({ className }: { className?: string }) {
 
 const offers = [
   {
-    label: "THE POWER HUB",
-    icon: "/images/icon-power-hub.png",
-    cta: "Join The Power Hub",
-    href: "https://www.skool.com/power-your-potential",
-    underline: false,
-    external: true,
-  },
-  {
     label: "Redefining Career Success",
     icon: null,
     cta: "Buy Now",
@@ -52,7 +44,7 @@ export default function PowerYourSelf() {
           <PowerYourSelfTabs />
         </div>
 
-        <div className="mt-6 grid gap-5 md:grid-cols-3">
+        <div className="mt-6 grid gap-5 md:grid-cols-2">
           {offers.map((offer) => (
             <div
               key={offer.label}
